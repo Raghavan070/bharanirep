@@ -2,4 +2,5 @@ n,m=map(int,input().split())
 t=n
 n=m
 m=t
-print(n," ",m," ")
+print(n,end=" ")
+print(m,end=" ")
