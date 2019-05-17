@@ -4,4 +4,4 @@ m=n^m
 n=n^m
 
 
-print(n," ",m," )
+print(n," ",m," ")
