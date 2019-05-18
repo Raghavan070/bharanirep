@@ -1,4 +1,4 @@
-s,m=(str,input().split())
+s,m=map(str,input().split())
 if s==m:
     print(m)
 elif len(s)>len(m):
