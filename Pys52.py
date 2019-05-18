@@ -1,5 +1,5 @@
 s,m=map(str,input().split())
-if s==m:
+if len(s)==len(m):
     print(m)
 elif len(s)>len(m):
     print(s)
