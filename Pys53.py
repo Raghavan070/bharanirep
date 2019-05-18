@@ -1,2 +1,3 @@
 s,m=map(str,input().split())
-print(s+m)
+k=s+m
+print(k)
