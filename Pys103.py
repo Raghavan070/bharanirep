@@ -1,3 +1,5 @@
-n,k=map(int,input().split())
-m=list(map(int,input().split()))
-print(m[k-1])
+n=int(input())
+x=n+273
+print(x)
+
+
