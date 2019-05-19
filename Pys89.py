@@ -1,10 +1,17 @@
+import math
 n,m=map(int,input().split())
-
-p=n*m
-x=-1
-for i in range(1,100):
-    if (i**2)==p:
-        x=0
-if x==0:
+x=n*m
+i=int(math.sqrt(x))
+if x==i*i:
     print("yes")
-else: print("no")
+else:
+    print("no")
+
+
+
+
+
+
+
+
+
