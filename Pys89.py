@@ -1,3 +1,5 @@
+n,m=map(int,input().split())
+
 p=n*m
 x=-1
 for i in range(1,100):
