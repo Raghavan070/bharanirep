@@ -1,6 +1,7 @@
-n=int(input())
-x=n
-while n%2==0:
-    n=n/2
-    print(int(n))
-if x==n: print(int(n))
+import math
+    
+x=int(input())
+if x%2==0:
+        print ( div(x/2))
+    else:
+        print ( math.ceil(x))
