@@ -6,5 +6,5 @@ for i in range(0,k):
     if o[i] in m:
         x=x+1
 if x==k:
-    print("Yes")
-else: print("No")
+    print("YES")
+else: print("NO")
