@@ -1,2 +1,7 @@
+
 n=int(input ())
-print(int(n/2)*(n-1))
+if n%2==0:
+	print(int(n/2)*(n-1))
+else:
+	print(n)
+
