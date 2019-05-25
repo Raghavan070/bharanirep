@@ -1,5 +1,5 @@
 n=input()
-x=y=z
+x=y=z=0
 for i in range(0,len(n)):
     if n[i]=='G':
         x+=1
