@@ -9,4 +9,6 @@ for i in range(0,len(q)-1):
     i=i+1
 for i in range(0,len(w)):
     print(w[i],end=" ")
-if len(q)==1: print (q[0])
+if len(q)==1: 
+    for i in range(0,1)
+        print (q[i],end="")
