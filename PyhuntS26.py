@@ -3,5 +3,5 @@ r=list(map(int,input().split()))
 q=r[::-1]
 for i in range(0,n):
     if i==n-1:
-        print(q[i])
+        print(q[i],end="")
     else: print(q[i],end="->")
