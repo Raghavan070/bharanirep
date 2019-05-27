@@ -16,5 +16,5 @@ for i in range(0,len(q),m):
     if t==p:
         s=s+1
     m=m+(y-1)
-if s==1: print("YES")
+if s>=1: print("YES")
 else: print("NO")
