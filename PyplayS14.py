@@ -1,4 +1,5 @@
 l=['A','E','I','O','U','a','e','i','o','u']
+k=int(input())
 n=list(input())
 o=[]
 for i in range(0,len(n)):
