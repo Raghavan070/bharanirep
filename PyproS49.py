@@ -1,3 +1,4 @@
+import sys
 def div(x,b):
     k=0
     if x == b: k = k + 1
@@ -14,6 +15,7 @@ if len(a)>len(b):x=a
 else: x=b
 k=0
 n=1
-if x==a: k=div(x,b)
+if a[0]==b[len(b)-1]
+elif x==a: k=div(x,b)
 else: k=div(x,a)
 print(k)
