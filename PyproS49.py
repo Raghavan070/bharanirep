@@ -15,7 +15,9 @@ if len(a)>len(b):x=a
 else: x=b
 k=0
 n=1
-if a[0]==b[len(b)-1]
+if a[0]==b[len(b)-1]: 
+    print ("1") 
+    sys.exit()
 elif x==a: k=div(x,b)
 else: k=div(x,a)
 print(k)
