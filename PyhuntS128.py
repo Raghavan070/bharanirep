@@ -6,6 +6,6 @@ for i in range(0,len(n)):
             x = n[i:j + 1]
             if x == x[::-1]:
                 a.append(x)
-a=a[::-1]
+a=sorted (a)
 for i in range(0,len(a)):
     print(a[i])
