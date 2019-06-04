@@ -11,3 +11,5 @@ for i in range(0,min(n,k)):
         if l[i][j]=='G' and l[i][j+1]=='G':
             c=c+3
 print(c)
+
+
