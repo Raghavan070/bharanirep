@@ -1,3 +1,3 @@
 n,k=map(int,input().split())
-print("1",end=" ")
-print(abs(n-k))
+if k==1: print ("1 2")
+else: print(abs(n-k))
