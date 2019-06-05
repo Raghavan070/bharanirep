@@ -12,3 +12,5 @@ while i<n and k!=-1:
 	i=i+1
 	k=k-1
 print(s)
+
+
