@@ -5,8 +5,9 @@ q=a=[]
 p=s=0
 for i in range(0,n):
     d=list(map(int,input().split()))
-    q.append(d)
-for i in range(1,n):
+    q.append(d) 
+if n==2: n=n+1
+for i in range(2,n):
     for j in range(0,i):
         for h in range(0,i):
             if a[j][h]==1: s=s+1
