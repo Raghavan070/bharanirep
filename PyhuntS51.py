@@ -1,3 +1,3 @@
 n,k=input().split()
-d=str(int(n)+int(k))
+d=str(int(n)*int(k))
 print(d)
