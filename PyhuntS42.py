@@ -20,8 +20,14 @@ for i in range(0,5):
             w=1
         if len(t)==0 or w==1: break
     if len(t)==0: break
-if s==v:
-    for i in range(0,len(c),len(c)-1):
+if s==v: 
+    if s==1:
+        for i in range(0,2):
+        k=list(str(c[0]))
+        print(k[0],end=" ")
+        print(k[1])
+    else:
+        for i in range(0,len(c),len(c)-1):
         k=list(str(c[i]))
         print(k[0],end=" ")
         print(k[1])
