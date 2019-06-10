@@ -7,6 +7,9 @@ for i in range(0,len(n)-len(k)+1):
         s = s + 1
         q=n.index(n[i],i)
 if s==1: print(q)
-else:
+elif s>1:
     s=0
+    print(s)
+else:
+    s=-1
     print(s)
