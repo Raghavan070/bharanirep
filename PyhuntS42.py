@@ -24,7 +24,8 @@ for i in range(0,5):
 if s==v: 
     if s==1:
     	for i in range(0,2):
-    		k=list(str(c[0]))
+    		
+            k=list(str(c[0]))
             print(k[0],end=" ")
             print(k[1])
     else:
