@@ -1,3 +1,4 @@
+# your code goes here 
 a="WELCOMETOGUVICORPORATIONS"
 a=list(a)
 t=list(input()) 
@@ -22,13 +23,13 @@ for i in range(0,5):
     if len(t)==0: break
 if s==v: 
     if s==1:
-        for i in range(0,2):
-        k=list(str(c[0]))
-        print(k[0],end=" ")
-        print(k[1])
+    	for i in range(0,2):
+    		k=list(str(c[0]))
+            print(k[0],end=" ")
+            print(k[1])
     else:
         for i in range(0,len(c),len(c)-1):
-        k=list(str(c[i]))
-        print(k[0],end=" ")
-        print(k[1])
+            k=list(str(c[i]))
+            print(k[0],end=" ")
+            print(k[1])
 else:print(s-s)
