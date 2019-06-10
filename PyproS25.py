@@ -1,3 +1,4 @@
+
 num=int(input())
 l=[int(y) for y in input().split()]
 l2=[]
@@ -12,3 +13,5 @@ for i in range(0,len(l)-1):
     else:
         l2=[]
 print(max(l1))
+
+
