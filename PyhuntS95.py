@@ -15,4 +15,4 @@ if len(p)==0:
     x=0
     print(x)
 else:
-    for i in range(len(p)): print(p[i],end=" ")
+    for i in range(len(p)): print(str(p[i]),end=" ")
