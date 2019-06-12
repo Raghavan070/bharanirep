@@ -6,3 +6,5 @@ for i in range(0,n): c=c+l[i]
 for i in range(0,n): d=d+m[i]
 d=d+1
 print(d//c)
+
+
