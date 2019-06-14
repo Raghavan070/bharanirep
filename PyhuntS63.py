@@ -8,3 +8,4 @@ while a==0:
         m.append(max(l))
     else: a=1
 m.append(0)
+print(*m)
