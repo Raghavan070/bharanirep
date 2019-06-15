@@ -1,4 +1,5 @@
-n,k=map(int,input().split())
+n,k=map(int,input().split()) 
+e=input()
 m=list(map(int,input().split()))
 u=list(map(int,input().split()))
 q=[]
