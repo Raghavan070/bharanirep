@@ -1,0 +1,5 @@
+n=int(input()) 
+m=list(map(int,input().split()))
+k=sorted(m)
+if k==m: print("yes")
+else: print("no")
