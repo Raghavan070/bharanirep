@@ -1,13 +1,21 @@
-# your code goes her
+# your code goes here 
+# your code goes he
+import sys
 n=int(input())
 m=list(map(int,input().split()))
 x=0
+p=(m.count(0))
 for i in range(0,n):
-	if m.count(0)==2 and m[i]==0:
-		print(m[i],end=" ")
-		print(m[i])
-	else:
-		x=(-1)*n[i]
-		if x in m:
+	x=(-1)*m[i]
+	if m[i]==0:
+		if p>=2:
 			print(m[i],end=" ")
-			print(x)
+			print(m[i])
+			sys.exit()
+	elif x in m:
+		print(m[i],end=" ")
+		print(x)
+		sys.exit()
+m=sorted(m)
+m=m[0:2]
+print(*m)
