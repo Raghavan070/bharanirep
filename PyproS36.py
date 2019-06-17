@@ -7,3 +7,6 @@ for i in range(n):
             if l[i]>l[j] and l[j]>l[k]: p=p+1
 if n==1: print(1)
 else:print(p)
+
+    
+#bharani
