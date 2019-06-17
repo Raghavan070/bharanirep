@@ -1,0 +1,6 @@
+n,k=map(str,input().split())
+n=str(n)
+k=str(k)
+if n.capitalize()==k: print("yes")
+elif k.capitalize()==n: print("yes")
+else: print("no")
