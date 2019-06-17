@@ -1,5 +1,5 @@
 n=int(input())
-m=list(map(int,input().split(
+m=list(map(int,input()))
 k=m.count(0)
 j=0
 s=[]
