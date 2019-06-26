@@ -14,3 +14,6 @@ for i in range(m):
     elif r in e:
         print(i)
         sys.exit()
+
+        
+#bharani
