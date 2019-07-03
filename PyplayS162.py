@@ -9,6 +9,6 @@ for i in range(n):
             s=s+1
             break
     l.append(r)
-if s==k:
+if s>=k:
     print("yes")
 else: print("no")
