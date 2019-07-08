@@ -1,5 +1,5 @@
 n,k=list(map(str,input().split()))
 n=list(set(n))
 k=list(set(k))
-if n==k: print("true")
+if len(n)==len(k): print("true")
 else: print("false")
