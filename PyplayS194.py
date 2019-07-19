@@ -1,4 +1,5 @@
 x,y=map(str,input().split())
 if x=='R' and y=='S': print("R")
 elif x=='P' and y=='S': print("S")
-else: print('P')
+elif x=='P' and y=='R': print("P")
+else: print('D')
