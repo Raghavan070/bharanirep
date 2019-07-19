@@ -4,3 +4,6 @@ s=0
 for i in range(n):
 	if l[i]<0: s=s+l[i]
 print(s)
+   
+	
+	
