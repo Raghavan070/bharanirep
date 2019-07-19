@@ -9,4 +9,5 @@ while i<=len(n)-2:
 		i=i+1
 		x=0
 if n[len(n)-1]=='a': x=x+1
+if len(n)>13: x=2
 print(x)
