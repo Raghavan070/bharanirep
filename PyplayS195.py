@@ -1,5 +1,5 @@
 # your code goes here 
-n=int(input()) 
-k=int(input())
+n,k=map(int,input().split())
+
 while n>k: n=n-k 
 print (n)
