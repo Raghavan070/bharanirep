@@ -14,3 +14,4 @@ for i in range(1,n):
 if len(s)!=0:
     print(len(s))
     for i in range(len(s)): print(s[i])
+else: print(0)
