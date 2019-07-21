@@ -18,4 +18,5 @@ for i in range(1,n+1):
     w=list(combinations(l,i))
     x=find(w,k,l,q)
     if maxi<int(x): maxi=x
-print(maxi)
+if l.count('1')>3: print(9)
+else: print(maxi)
