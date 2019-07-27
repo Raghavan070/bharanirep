@@ -18,5 +18,7 @@ else:
 	x.append(str(s))
 	x.append("*")
 	x.append(n[i]) 
-if x[0]=='8': print(" "+str("".join(X))
+if x[0]=='8':
+	print(" ",end="")
+	print("".join(x))
 else: print("".join(x))
