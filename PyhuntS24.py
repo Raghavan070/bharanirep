@@ -2,7 +2,7 @@
 import sys
 from itertools import combinations 
 n,k=map(int, input ().split()) 
-l=list(map(str, input ().split())) 
+l=list(map(int, input ().split())) 
 l=sorted(l) 
 q=[]
 for i in range (0,len(l)):
