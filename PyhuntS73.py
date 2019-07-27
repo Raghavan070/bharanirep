@@ -9,5 +9,5 @@ for i in range(0,min(len(n),len(k))):
             i=i+1
         elif len(s)==0: continue
         else: break
-        if len(s)>len(x): x=s
+        if len(s)>=len(x): x=s
 print(x)
