@@ -17,5 +17,6 @@ if n[len(n)-1]!=n[len(n)-2]:
 else:
 	x.append(str(s))
 	x.append("*")
-	x.append(n[i])
-print("".join(x))
+	x.append(n[i]) 
+if x[0]=='8': print(" "+str("".join(X))
+else: print("".join(x))
